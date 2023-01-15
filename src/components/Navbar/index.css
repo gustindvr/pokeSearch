@@ -1,0 +1,18 @@
+.container-navbar {
+  display: flex;
+  flex-flow: column wrap;
+  text-align: center;
+}
+
+.container-navbar img {
+  width: 70%;
+  height: 70%;
+  object-fit: contain;
+  align-self: center;
+  border-radius: 8px;
+}
+
+.container-navbar .container-text {
+  text-align: center;
+  margin-top: 1em;
+}

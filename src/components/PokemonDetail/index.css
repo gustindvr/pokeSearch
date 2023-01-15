@@ -1,0 +1,96 @@
+.container-detail-pokemon {
+  display: flex;
+  flex-flow: column nowrap;
+  border-radius: 19px;
+  background-color: var(--light-blue);
+  color: var(--black);
+  justify-content: space-evenly;
+}
+
+.container-detail-pokemon .name-detail-pokemon {
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.container-detail-pokemon .container-detail-image {
+  width: min-content;
+  margin: 0 auto;
+}
+
+.container-detail-pokemon .container-details {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  text-align: center;
+  padding: 1em;
+}
+
+.container-detail-pokemon .container-details .container-abilities,
+.container-detail-pokemon .container-details .container-stats {
+  width: 100%;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-between;
+  text-align: center;
+  margin: 0.5em 0;
+}
+
+.container-detail-pokemon .container-details .container-stats {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  margin: 0.5em 0;
+}
+
+.container-detail-pokemon .container-details .container-game-indices {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  text-align: center;
+  margin: 0.5em 0;
+}
+
+@media (min-width: 570px) {
+  .container-detail-pokemon {
+    width: fit-content;
+    display: flex;
+    flex-flow: row wrap;
+    border-radius: 19px;
+    padding: 5em 0;
+    background-color: var(--light-blue);
+    color: var(--black);
+    justify-content: space-evenly;
+  }
+
+  .container-detail-pokemon .name-detail-pokemon {
+    width: 100%;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: capitalize;
+    text-align: center;
+  }
+
+  .container-detail-pokemon .container-detail-image {
+    width: min-content;
+  }
+
+  .container-detail-pokemon .container-details {
+    display: flex;
+    flex-flow: row wrap;
+    flex-basis: 40%;
+    text-align: left;
+  }
+
+  .container-detail-pokemon .container-details .container-abilities,
+  .container-detail-pokemon .container-details .container-game-indices,
+  .container-detail-pokemon .container-details .container-stats {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    text-align: center;
+    margin: 1em 0;
+  }
+}

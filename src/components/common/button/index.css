@@ -1,0 +1,25 @@
+.button-ui.principal {
+  width: 100%;
+  max-width: 330px;
+  background-color: var(--light-blue);
+  color: var(--black);
+  border-radius: 24px;
+}
+
+.button-ui.principal:hover {
+  background-color: var(--dark-blue);
+  color: white;
+}
+
+.button-ui.secondary {
+  width: 100%;
+  max-width: 200px;
+  background-color: var(--black);
+  color: white;
+  border-radius: 16px;
+}
+
+.button-ui.secondary:hover {
+  background-color: var(--grey);
+  color: white;
+}
